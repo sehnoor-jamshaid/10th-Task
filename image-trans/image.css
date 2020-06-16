@@ -1,0 +1,40 @@
+.main
+{
+position:relative;
+width:300px;
+height:400px;
+
+}
+.main img
+{
+width:300px;
+height:400px;
+}
+.sec
+{
+width:300px;
+height:0px;
+background-image:linear-gradient(#F0F8FF,#BA55D3,#800080);
+position:absolute;
+top:0;
+overflow:hidden;
+transition:1s ease ;
+opacity:0.9;
+}
+.text
+{color:white;
+position:absolute;
+top:40%;
+left:15%;
+font-size:20px;
+text-shadow:2px 3px 3px pink;
+transition:1s ease;
+}
+
+.main:hover .text
+{
+}
+.main:hover .sec
+{
+height:400px;
+}
